@@ -7,3 +7,14 @@ C:\Users\tymur\source\repos\Auto_library\x64\Debug\Autolibrary.About.resources
 C:\Users\tymur\source\repos\Auto_library\x64\Debug\Autolibrary.Report.resources
 C:\Users\tymur\source\repos\Auto_library\x64\Debug\Autolibrary.Login.resources
 C:\Users\tymur\source\repos\Auto_library\x64\Debug\Autolibrary.Admin1.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Auto_library.vcxproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Auto_library.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.About.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.Admin1.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.Login.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.MyForm.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.Report.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Auto_library.vcxproj.GenerateResource.cache
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Auto_library.exe
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.AdminAdd.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.AdminDelete.resources

@@ -1,4 +1,6 @@
 #pragma once
+#include "AdminAdd.h"
+#include "AdminDelete.h"
 
 namespace Autolibrary {
 
@@ -45,6 +47,9 @@ namespace Autolibrary {
 	private: System::Windows::Forms::Button^ button8;
 	private: System::Windows::Forms::GroupBox^ groupBox1;
 	private: System::Windows::Forms::Button^ button9;
+
+
+
 	protected:
 
 	private:
@@ -81,6 +86,7 @@ namespace Autolibrary {
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"Майбутні книги";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &Admin::button1_Click);
 			// 
 			// button2
 			// 
@@ -116,8 +122,9 @@ namespace Autolibrary {
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(189, 61);
 			this->button5->TabIndex = 5;
-			this->button5->Text = L"Видатити книгу";
+			this->button5->Text = L"Видалити книгу";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &Admin::button5_Click);
 			// 
 			// button6
 			// 
@@ -195,7 +202,14 @@ namespace Autolibrary {
 	}
     private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) 
     {
-
+		AdminAdd^ addForm = gcnew AdminAdd;
+		addForm->Show();
     }
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+		AdminDelete^ deleteForm = gcnew AdminDelete;
+		deleteForm->Show();
+	}
 };
 }

@@ -1,5 +1,7 @@
   Autolibrary.About.resources - Embedded, ContainedInManifestFile, 
   Autolibrary.Admin1.resources - Embedded, ContainedInManifestFile, 
+  Autolibrary.AdminAdd.resources - Embedded, ContainedInManifestFile, 
+  Autolibrary.AdminDelete.resources - Embedded, ContainedInManifestFile, 
   Autolibrary.Login.resources - Embedded, ContainedInManifestFile, 
   Autolibrary.MyForm.resources - Embedded, ContainedInManifestFile, 
   Autolibrary.Report.resources - Embedded, ContainedInManifestFile, 
@@ -22,6 +24,12 @@ Class Autolibrary.Report: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Autolibrary.About: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Autolibrary.AdminAdd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Autolibrary.AdminDelete: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Autolibrary.Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

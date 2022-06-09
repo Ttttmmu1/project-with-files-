@@ -182,6 +182,8 @@ namespace Autolibrary {
 		{
 			if (Login == logins[i] && Password == passwords[i])
 			{
+				/*Form::Close();
+				WaitForSingleObject(NULL, 500);*/
 				Admin^ adminForm = gcnew Admin;
 				adminForm->ShowDialog();
 			}

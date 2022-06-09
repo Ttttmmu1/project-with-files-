@@ -92,6 +92,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -101,6 +103,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -124,6 +128,8 @@
   <ItemGroup>
     <ClCompile Include="About.cpp" />
     <ClCompile Include="Admin1.cpp" />
+    <ClCompile Include="AdminAdd.cpp" />
+    <ClCompile Include="AdminDelete.cpp" />
     <ClCompile Include="Auto library.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Report.cpp" />
@@ -133,6 +139,12 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Admin1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminAdd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminDelete.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Login.h">
@@ -151,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin1.resx">
       <DependentUpon>Admin1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAdd.resx">
+      <DependentUpon>AdminAdd.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDelete.resx">
+      <DependentUpon>AdminDelete.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.h</DependentUpon>
