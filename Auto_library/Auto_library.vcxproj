@@ -130,6 +130,7 @@
     <ClCompile Include="Admin1.cpp" />
     <ClCompile Include="AdminAdd.cpp" />
     <ClCompile Include="AdminDelete.cpp" />
+    <ClCompile Include="AdminReview.cpp" />
     <ClCompile Include="Auto library.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Report.cpp" />
@@ -145,6 +146,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="AdminDelete.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminReview.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Login.h">
@@ -169,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminDelete.resx">
       <DependentUpon>AdminDelete.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminReview.resx">
+      <DependentUpon>AdminReview.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.h</DependentUpon>

@@ -1,6 +1,7 @@
 #pragma once
 #include "AdminAdd.h"
 #include "AdminDelete.h"
+#include "AdminReview.h"
 
 namespace Autolibrary {
 
@@ -152,6 +153,7 @@ namespace Autolibrary {
 			this->button8->TabIndex = 8;
 			this->button8->Text = L"Перегляд книг";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &Admin::button8_Click);
 			// 
 			// groupBox1
 			// 
@@ -210,6 +212,10 @@ namespace Autolibrary {
 	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
 		AdminDelete^ deleteForm = gcnew AdminDelete;
 		deleteForm->Show();
+	}
+	private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+		AdminReview^ reviewForm = gcnew AdminReview;
+		reviewForm->Show();
 	}
 };
 }

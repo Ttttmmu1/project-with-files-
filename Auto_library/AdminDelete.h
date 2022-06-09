@@ -148,6 +148,7 @@ namespace Autolibrary {
 			MessageBox::Show("Видалено успішно");
 		}
 		else MessageBox::Show("Такої книги не існує");
+		delete buffer;
 	}
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 		Form::Close();
