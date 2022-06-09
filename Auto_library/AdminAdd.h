@@ -168,7 +168,7 @@ namespace Autolibrary {
 			this->Controls->Add(this->textBox2);
 			this->Controls->Add(this->textBox1);
 			this->Name = L"AdminAdd";
-			this->Text = L"AdminAdd";
+			this->Text = L"Додати книгу";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

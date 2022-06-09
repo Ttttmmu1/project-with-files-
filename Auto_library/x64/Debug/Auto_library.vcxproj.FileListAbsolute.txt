@@ -19,3 +19,4 @@ C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\
 C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.AdminAdd.resources
 C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.AdminDelete.resources
 C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.AdminReview.resources
+C:\Users\Admin\Desktop\programmingLabs\1-2\oop\project-with-files-\Auto_library\x64\Debug\Autolibrary.AdminFutureAdd.resources

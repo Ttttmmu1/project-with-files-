@@ -128,7 +128,7 @@ namespace Autolibrary {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->listView1);
 			this->Name = L"AdminReview";
-			this->Text = L"AdminReview";
+			this->Text = L"Перегляд книг";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

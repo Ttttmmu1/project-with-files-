@@ -2,6 +2,7 @@
 #include "AdminAdd.h"
 #include "AdminDelete.h"
 #include "AdminReview.h"
+#include "AdminFutureAdd.h"
 
 namespace Autolibrary {
 
@@ -208,6 +209,8 @@ namespace Autolibrary {
 		addForm->Show();
     }
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		AdminFutureAdd^ addForm = gcnew AdminFutureAdd;
+		addForm->Show();
 	}
 	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
 		AdminDelete^ deleteForm = gcnew AdminDelete;

@@ -72,6 +72,7 @@ namespace Autolibrary {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(246, 20);
 			this->textBox1->TabIndex = 0;
+			this->textBox1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
 			// 
 			// label1
 			// 
@@ -113,7 +114,7 @@ namespace Autolibrary {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->textBox1);
 			this->Name = L"AdminDelete";
-			this->Text = L"AdminDelete";
+			this->Text = L"Видалити книгу";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
